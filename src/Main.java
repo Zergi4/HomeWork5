@@ -34,6 +34,20 @@ public class Main {
         } else {
             System.out.println("Год " + year + " не является высокосным.");
         }
-
+//hw 5.4
+        int deliveryDistance = 95;
+        int deliveryTime;
+        if (deliveryDistance <= 100) {
+            if (deliveryDistance > 60) {
+                deliveryTime = 3;
+            } else if (deliveryDistance > 20) {
+                deliveryTime = 2;
+            } else {
+                deliveryTime = 1;
+            }
+            System.out.println("Потребуется дней: " + deliveryTime);
+        } else {
+            System.out.println("Доставки нет");
+        }
     }
 }
