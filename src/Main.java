@@ -8,6 +8,21 @@ public class Main {
             case 1:
                 System.out.println("Установите версию приложения для Android по ссылке.");
         }
-        //
+        // hw 5.2
+        int yearPhone = 2014;
+        byte clientOs2 = 0;
+        if (yearPhone < 2015) {
+            if (clientOs2 == 1) {
+                System.out.println("Установите облегченную версию приложения для Android по ссылке");
+            } else {
+                System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+            }
+            } else if (clientOs2 == 1) {
+                System.out.println("Установите версию приложения для Android по ссылке.");
+            } else {
+                System.out.println("Установите версию приложения для iOS по ссылке.");
+
+            }
+        }
+
     }
-}
